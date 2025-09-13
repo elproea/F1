@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #0a0f0f; /* fondo oscuro */
+  color: #e0e0e0;
+  text-align: center;
+}
+
+h1 {
+  color: #00d2be; /* turquesa Petronas */
+}
+
+h2 {
+  color: #c0c0c0; /* gris plateado */
+  margin-top: 30px;
+}
+
+img {
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+div {
+  margin: 30px auto;
+  width: 80%;
+  background: #1a1f1f;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+div h3 {
+  color: #00d2be; /* nombres de pilotos en turquesa */
+}
+
+a {
+  color: #c0c0c0; /* plateado */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00d2be; /* efecto hover en turquesa */
+  text-decoration: underline;
+}

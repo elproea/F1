@@ -1,0 +1,147 @@
+/* ---------------- RESET ---------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------------- BASE ---------------- */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ---------------- HEADER ---------------- */
+header {
+    background: linear-gradient(90deg, #000, #222);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* ---------------- CONTENEDOR DE EQUIPOS ---------------- */
+.teams {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.teams h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* ---------------- TARJETAS ---------------- */
+.team-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-card img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.team-card p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+/* ---------------- BOTONES ---------------- */
+.team-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* ---------------- COLORES POR EQUIPO ---------------- */
+
+/* Ferrari */
+.team-card.ferrari a {
+    background: #dc0000;
+}
+.team-card.ferrari a:hover {
+    background: #a50000;
+}
+
+/* Red Bull */
+.team-card.redbull a {
+    background: #1e5bc6;
+}
+.team-card.redbull a:hover {
+    background: #163e8a;
+}
+
+/* Mercedes */
+.team-card.mercedes a {
+    background: #00d2be;
+}
+.team-card.mercedes a:hover {
+    background: #009b89;
+}
+
+/* McLaren */
+.team-card.mclaren a {
+    background: #ff8700;
+}
+.team-card.mclaren a:hover {
+    background: #cc6d00;
+}
+
+/* Aston Martin */
+.team-card.astonmartin a {
+    background: #00665e;
+}
+.team-card.astonmartin a:hover {
+    background: #004d46;
+}
+
+/* Alfa Romeo (ejemplo extra) */
+.team-card.alfaromeo a {
+    background: #900000;
+}
+.team-card.alfaromeo a:hover {
+    background: #600000;
+}
+
+/* ---------------- FOOTER ---------------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #222;
+    color: white;
+}

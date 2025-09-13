@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #006f62; /* Verde característico Aston Martin */
+  color: white;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #00ffb0;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #ffd700;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #00ffb0;
+  margin-top: 15px;
+}
+
+img {
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+p, li {
+  font-size: 1.1em;
+}
+
+ul {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+a {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffffff;
+}
